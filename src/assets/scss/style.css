@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,600&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;1,200;1,600&display=swap");
 :root {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 * {
@@ -266,7 +266,7 @@
 
 .navbar-header__buttons a {
   text-decoration: none;
-  border: 3px solid white;
+  border: 2px solid white;
   border-radius: 4px;
   font-size: 1rem;
   padding: 0.5rem 2.2rem;
@@ -295,7 +295,7 @@
 }
 
 .close {
-  width: 3rem;
+  width: 2rem;
   display: none;
   cursor: pointer;
 }
@@ -304,7 +304,7 @@
   .close {
     display: block;
     position: absolute;
-    left: 45%;
+    left: 40%;
     z-index: 6000;
   }
 }
