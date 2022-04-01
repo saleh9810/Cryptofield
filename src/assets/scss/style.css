@@ -25,6 +25,12 @@
   }
 }
 
+@media (max-width: 300px) {
+  :root {
+    font-size: 6px;
+  }
+}
+
 .home {
   background-color: #10144f;
   background-image: url(../image/Group.png);
@@ -196,6 +202,14 @@
   width: 80% !important;
 }
 
+@media (max-width: 1100px) {
+  .navbar-header__container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .navbar-header__title h3 {
   font-size: 2rem;
   font-weight: 500 !important;
@@ -295,8 +309,8 @@
 }
 
 .close {
-  width: 2rem;
   display: none;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -304,7 +318,7 @@
   .close {
     display: block;
     position: absolute;
-    left: 40%;
+    left: 45%;
     z-index: 6000;
   }
 }
@@ -396,9 +410,9 @@ footer .icons img {
 
 @media (max-width: 1200px) {
   .token__img {
-    width: 100%;
+    margin-left: 2rem;
     margin-top: 2rem;
-    text-align: center;
+    width: 100%;
   }
 }
 

@@ -1,10 +1,17 @@
 import React, { useEffect, useState } from "react";
 import logo from "../assets/image/logo.png";
 import list from "../assets/image/list.png";
-import close from "../assets/image/close.png";
 
 const GlobalNavbar = () => {
-  const [isActive, setActive] = useState();
+  const [isActive, setActive] = useState(false);
+
+  useEffect(() => {
+    if (window.screen.width < 1200) {
+      setActive(true);
+    } else {
+      setActive(false);
+    }
+  }, []);
 
   window.addEventListener("resize", function () {
     if (window.matchMedia("(min-width: 1100px)").matches) {
@@ -52,12 +59,9 @@ const GlobalNavbar = () => {
           className="list"
           onClick={toggleClass}
         />
-        <img
-          src={close}
-          alt="close-icon"
-          onClick={toggleClass}
-          className={`${isActive ? "d-none" : "close"}`}
-        />
+        <p onClick={toggleClass} className={`${isActive ? "d-none" : "close"}`}>
+          X
+        </p>
       </div>
     </header>
   );
