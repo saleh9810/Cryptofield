@@ -1,0 +1,44 @@
+.process {
+  background-color: $c-primary;
+  padding: 4rem 0;
+
+  &__box {
+    @media (max-width: 1200px) {
+      flex-direction: column;
+}
+  }
+
+  color: #fff;
+  &__content__text {
+    &__process {
+      font-weight: 600;
+    }
+    &__title {
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    &__paragraph {
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+    &__icons {
+      &__box {
+        margin-top: 1rem;
+        img {
+          background-color: $c-primary-light;
+          border-radius: 50%;
+          padding: 1rem;
+          margin-right: 1.5rem;
+          width: 4.5rem;
+
+         
+        }
+        p {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
+ 
+}

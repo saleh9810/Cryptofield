@@ -1,0 +1,109 @@
+.road {
+    background-color: $c-primary-dark;
+    color: #fff;
+    padding: 5rem 0;
+
+
+    &__header {
+        margin-bottom: 3rem;
+        p {
+            font-weight: 500;
+        }
+       h3 {
+           line-height: 1rem;
+           font-weight: 600;
+       }
+    }
+    &__content {
+        position: relative;
+        &__img {
+            img {
+                width: 25%;
+                @media (max-width: 990px) {
+                    width: 45%;
+                }
+                @media (max-width: 600px) {
+                    width: 65%;
+                }
+              
+                @media (max-width: 600px) {
+                    display: none;
+                }
+            }
+        }
+
+        &__text {
+           
+           
+                p {
+                    width: 77%;
+                    @media (max-width: 990px) {
+                        width: 50%;
+                    }
+                    @media (max-width: 600px) {
+                        width: 65%;
+                    }
+                
+                    
+                }
+            
+            &__box1 {
+                position: absolute;
+                left: 30%;
+                top: 12%;
+                @media (max-width: 600px) {
+                   top: 10%;
+                }
+
+                @media (max-width: 600px) {
+                    position: relative;
+                    left: 0;
+                }
+               
+            }
+
+            &__box2 {
+                position: absolute;
+                left: 42%;
+                top: 33%;
+                @media (max-width: 600px) {
+                    position: relative;
+                    left: 0;
+                }
+                @media (max-width: 600px) {
+                    top: 30%;
+                 }
+                p {
+                    width: 80%;
+                }
+            }
+            &__box3 {
+                position: absolute;
+                left: 30%;
+                top: 53%;
+                @media (max-width: 600px) {
+                    position: relative;
+                    left: 0;
+                }
+                @media (max-width: 600px) {
+                    top: 50%;
+                 }
+            }
+            &__box4 {
+                position: absolute;
+                left: 42%;
+                top: 75%;
+                @media (max-width: 600px) {
+                    position: relative;
+                    left: 0;
+                }
+                @media (max-width: 600px) {
+                    top: 72%;
+                 }
+                p {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

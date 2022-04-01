@@ -1,0 +1,64 @@
+.contact {
+    background-color: $c-primary;
+    padding: 5rem 0;
+    color: #fff;
+    
+    &__header {
+        margin-bottom: 3.5rem;
+        p {
+            font-weight: 500;
+        }
+       h3 {
+           line-height: 1rem;
+           font-weight: 600;
+       }
+    }
+
+    &__content{
+
+        @media (max-width: 1200px) {
+            flex-direction: column;
+
+}
+      
+      
+
+        &__send {
+            background-color: $c-primary-dark;
+            padding: 2.5rem;
+            @media (max-width: 1200px) {
+               margin-top: 2rem;
+                
+    }
+            h4 {
+                margin-bottom: 1rem;
+            }
+            input {
+                background-color: $c-primary;
+                color: #fff;
+                height: 2.5rem;
+                border: none;
+                margin-bottom: 1rem;
+            }
+
+            textarea {
+                background-color: $c-primary;
+                border: none;
+                width: 100%;
+
+            }
+
+            
+        }
+    }
+
+   
+}
+
+
+::placeholder {
+    color: #fff;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    font-weight: 200;
+  }

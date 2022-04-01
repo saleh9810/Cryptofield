@@ -1,0 +1,58 @@
+.leadership {
+    background-color: $c-primary;
+    color: #fff;
+    padding: 5rem 0;
+
+    &__header {
+        margin-bottom: 3rem;
+        p {
+            font-weight: 500;
+        }
+       h3 {
+           line-height: 1rem;
+           font-weight: 600;
+       }
+    }
+
+    &__content {
+        @media (max-width: 1200px) {
+            flex-direction: column;
+}
+        &__box {
+            background-color: $c-primary-dark;
+            margin: 1rem;
+            padding: 1rem;
+
+            figure {
+                img {
+                    @media (max-width: 600px) {
+                        width: 50%;
+            }
+                }
+                h5 {
+                    font-weight: 500;
+                    margin-top: 0.6rem;
+                }
+                p {
+                    font-weight: 300;
+                    line-height: 1rem;
+                }
+            }
+
+            p {
+                font-weight: 200;
+            }
+
+            &__icons {
+                img {
+                    margin-right: 0.6rem;
+                    width: 1rem;
+                }
+            }
+        }
+        &__box:hover {
+            transform: translateY(-10%);
+            transition: all 0.5s ease-in-out;
+        }
+    }
+}

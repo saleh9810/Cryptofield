@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import Apps from "./components/Apps";
+import ContactUs from "./components/ContactUs";
+import Documentation from "./components/Documentation";
+import Faq from "./components/Faq";
+import Footer from "./shared/Footer";
+import Home from "./components/Home";
+import Ico from "./components/Ico";
+import Leadership from "./components/Leadership";
+import Partners from "./components/Partners";
+import Process from "./components/Process";
+import Pyramids from "./components/Pyramids";
+import Road from "./components/Road";
+import Token from "./components/Token";
+import Updated from "./components/Updated";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home />
+      <Ico />
+      <Process />
+      <Token />
+      <Documentation />
+      <Road />
+      <Pyramids />
+      <Apps />
+      <Leadership />
+      <Partners />
+      <Faq />
+      <ContactUs />
+      <Updated />
+      <Footer />
     </div>
   );
 }

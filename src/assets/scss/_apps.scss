@@ -1,0 +1,71 @@
+.apps {
+    background-color: $c-primary-dark;
+    color: #fff;
+    padding: 5rem 0;
+
+    &__content {
+        @media (max-width: 1200px) {
+            flex-direction: column;
+}
+        &__text {
+            @media (max-width: 1200px) {
+                    width: 100%;
+}
+            &__our {
+                font-weight: 500;
+                letter-spacing: 1.5px;
+            }
+            &__title {
+                width: 60%;
+                font-size: 2rem;
+                margin-bottom: 1rem;
+                font-weight: 600;
+            }
+            &__paragraph {
+                font-weight: 200;
+            }
+           &__list {
+               list-style: none;
+               &__item {
+                   margin-bottom: 1rem;
+               }
+              
+           }
+            
+           &__buttons {
+
+            &__icons {
+                img {
+                    width: 2rem;
+                }
+            }
+              
+               margin-top: 2.5rem;
+               a {
+                   margin-right: 3rem;
+               }
+
+               img {
+                   margin-right: 1rem;
+               }
+           }
+        }
+        &__img {
+            @media (max-width: 1200px) {
+                width: 85%;
+            }
+
+            img {
+                width: 100%;
+                margin-top: 3rem;
+            }
+        }
+       
+    }
+}
+
+
+.circle {
+    margin-right: 0.5rem;
+    width: 0.9rem;
+}

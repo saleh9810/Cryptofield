@@ -1,0 +1,22 @@
+.updated {
+    background-color: $c-primary-dark;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 0;
+   
+    input {
+        height: 2.8rem;
+        border: 1px solid #fff;
+        border-right: none;
+        width: 30%;
+        background-color: $c-primary;
+        margin-top: 1rem;
+        
+    }
+    button {
+        border: 1px solid #fff;
+        border-left: none;
+
+
+    }
+}

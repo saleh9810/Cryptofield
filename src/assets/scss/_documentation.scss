@@ -1,0 +1,55 @@
+.documentation {
+    background-color: $c-primary;
+    color: #fff;
+    padding: 5rem 0;
+
+    
+
+    &__header {
+        margin-bottom: 3rem;
+        p {
+            font-weight: 500;
+        }
+       h3 {
+           line-height: 1rem;
+           font-weight: 600;
+       }
+    }
+
+    &__content {
+        text-align: center;
+        margin-top: 2.5rem;
+        @media (max-width: 1200px) {
+                flex-direction: column;            
+      }
+
+        figure {
+            background-color: $c-primary-dark;
+            padding: 3rem 2rem;
+            margin-right: 1rem;
+            border-radius: 4px;
+            width: 20%;
+            img {
+                @media (max-width: 1200px) {
+                    width: 20%;
+                    
+              }
+            }
+            @media (max-width: 1200px) {
+                width: 100%;
+                
+          }
+         
+
+            figcaption {
+                margin-top: 1rem;
+                font-weight: 600;
+            }
+
+        }
+        
+      
+        
+    }
+
+}
