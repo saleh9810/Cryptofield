@@ -4,7 +4,7 @@ import list from "../assets/image/list.png";
 import close from "../assets/image/close.png";
 
 const GlobalNavbar = () => {
-  const [isActive, setActive] = useState(true);
+  const [isActive, setActive] = useState();
 
   window.addEventListener("resize", function () {
     if (window.matchMedia("(min-width: 1100px)").matches) {
@@ -20,7 +20,7 @@ const GlobalNavbar = () => {
 
   return (
     <header className="navbar-header">
-      <div className="container navbar-header__container justify-content-between d-flex">
+      <div className="container navbar-header__container  d-flex">
         <div className="navbar-header__title">
           <h3>
             <img alt="logo" src={logo}></img> Cryptofield

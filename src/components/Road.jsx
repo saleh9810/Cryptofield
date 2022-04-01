@@ -5,8 +5,6 @@ import icon2 from "../assets/image/roadIcon2.png";
 import icon3 from "../assets/image/roadIcon3.png";
 import icon4 from "../assets/image/roadIcon4.png";
 
-import listStyle from "../assets/image/circle.png";
-
 const Road = () => {
   return (
     <section className="road">
