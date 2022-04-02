@@ -19,7 +19,7 @@ const Apps = () => {
             </h3>
             <p className="apps__content__text__paragraph">
               While existing solutions offer to solve just one problem at a time
-              our integration, and even a digital arbitration system.
+              our <br /> integration, and even a digital arbitration system.
             </p>
             <ul className="apps__content__text__list">
               <li className="apps__content__text__list__item">

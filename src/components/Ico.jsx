@@ -30,12 +30,12 @@ const Ico = () => {
           <p className="ico__content__text__while">
             While existing solutions offer to solve just one problem at a time
             our team is up to build a secure, useful, & easy-to-use product
-            based on integration, and even a digital arbitration system.
+            based on <br /> integration, and even a digital arbitration system.
           </p>
           <p className="ico__content__text__while">
             While existing solutions offer to solve just one problem at a time
             our private blockchain. It will include easy cryptocurrency payments
-            integration, and even a digital arbitration system.
+            <br /> integration, and even a digital arbitration system.
           </p>
         </div>
       </div>

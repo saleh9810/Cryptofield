@@ -6,16 +6,19 @@
     
 
     &__header {
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
         p {
             font-weight: 500;
+            letter-spacing: 2px;
+
         }
        h3 {
            line-height: 1rem;
            font-weight: 600;
+           letter-spacing: 1px;
+
        }
     }
-
     &__content {
         text-align: center;
         margin-top: 4rem;

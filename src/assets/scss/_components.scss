@@ -35,7 +35,7 @@
   text-decoration: none;
   border-radius: 4px;
   font-size: 1rem;
-  padding: 0.7rem 1.7rem;
+  padding: 0.9rem 1.7rem;
   color: #fff;
   font-weight: 500;
   background: $linear-gradient;
@@ -45,7 +45,7 @@
   text-decoration: none;
   border-radius: 4px;
   font-size: 1rem;
-  padding: 0.7rem 1.7rem;
+  padding: 0.9rem 1.7rem;
   color: #fff;
   font-weight: 500;
   background-color: #4153e3;
@@ -54,6 +54,10 @@
 
 .icons__box  {
   margin-top: 1rem;
+
+  h6 {
+    font-size: 1.2rem;
+  }
   img {
     background-color: $c-primary-light;
     border-radius: 50%;
@@ -61,9 +65,10 @@
     margin-right: 1.5rem;
     width: 4rem;
   }
+
   p {
     font-size: 0.9rem;
-    font-weight: 300;
+    font-weight: 200;
   }
 }
 

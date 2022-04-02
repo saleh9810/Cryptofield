@@ -11,11 +11,14 @@
   color: #fff;
   &__content__text {
     &__process {
-      font-weight: 600;
+      font-weight: 500;
+      letter-spacing: 1px;
     }
     &__title {
-      font-weight: 700;
-      margin-bottom: 1rem;
+      font-weight: 600;
+      line-height: 1.3rem;
+      margin-bottom: 2.5rem;
+      font-size: 1.9rem;
     }
     &__paragraph {
       margin-bottom: 2rem;
@@ -24,6 +27,7 @@
     &__icons {
       &__box {
         margin-top: 1rem;
+       
         img {
           background-color: $c-primary-light;
           border-radius: 50%;
@@ -35,7 +39,8 @@
          
         }
         p {
-          font-size: 0.8rem;
+          font-size: 0.9rem;
+          font-weight: 200;
         }
       }
     }

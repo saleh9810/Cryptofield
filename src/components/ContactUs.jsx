@@ -55,7 +55,8 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-2"></div>
+          <div className="col-lg-1"></div>
+
           <div className="contact__content__send col-lg-5">
             <h4>Send us a Message</h4>
             <form className="contact__content__send__inputs ">
@@ -78,6 +79,7 @@ const ContactUs = () => {
               <button className="main-button mt-4">Submit Message</button>
             </form>
           </div>
+          <div className="col-lg-1"></div>
         </div>
       </div>
     </section>

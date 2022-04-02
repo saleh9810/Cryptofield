@@ -164,31 +164,45 @@
   }
 }
 
+.ico__content__text {
+  padding-left: 3rem;
+}
+
 @media (max-width: 1200px) {
   .ico__content__text {
     width: 100% !important;
+    padding-left: 0rem;
   }
 }
 
 .ico__content__text__what {
   font-weight: 500;
+  margin-top: 5rem;
 }
 
 .ico__content__text__title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 2rem;
   line-height: 2.7rem;
+  letter-spacing: 2px;
+  width: 70%;
 }
 
 .ico__content__text__future {
   font-size: 1rem;
   line-height: 2rem;
   font-style: italic;
-  width: 90%;
+  font-weight: 400;
+  width: 70%;
+  letter-spacing: 1px;
+  margin-top: 2rem;
 }
 
 .ico__content__text__while {
   font-weight: 200;
+  letter-spacing: 1px;
+  width: 90%;
+  margin-top: 2rem;
 }
 
 .navbar-header {
@@ -359,6 +373,7 @@ footer p {
 footer .icons img {
   margin: 0.4rem;
   width: 2.5rem;
+  margin-top: 1rem;
 }
 
 .token {
@@ -377,16 +392,18 @@ footer .icons img {
 }
 
 .token__header {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .token__header p {
   font-weight: 500;
+  letter-spacing: 2px;
 }
 
 .token__header h3 {
   line-height: 1rem;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 1200px) {
@@ -399,19 +416,20 @@ footer .icons img {
   background-color: #10205c;
   margin-bottom: 2rem;
   margin-right: 1rem;
-  padding-top: 1rem;
-  padding-left: 1rem;
+  padding: 0rem 1.2rem;
+  padding-top: 1.4rem;
   width: 100%;
 }
 
 .token__content__text__boxs__box h4 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
 .token__content__text__boxs__box p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 300;
+  line-height: 2rem;
 }
 
 .token__img {
@@ -524,7 +542,7 @@ footer .icons img {
   text-decoration: none;
   border-radius: 4px;
   font-size: 1rem;
-  padding: 0.7rem 1.7rem;
+  padding: 0.9rem 1.7rem;
   color: #fff;
   font-weight: 500;
   background: -webkit-gradient(linear, left top, right top, from(#ec844d), to(#eb535a));
@@ -535,7 +553,7 @@ footer .icons img {
   text-decoration: none;
   border-radius: 4px;
   font-size: 1rem;
-  padding: 0.7rem 1.7rem;
+  padding: 0.9rem 1.7rem;
   color: #fff;
   font-weight: 500;
   background-color: #4153e3;
@@ -543,6 +561,10 @@ footer .icons img {
 
 .icons__box {
   margin-top: 1rem;
+}
+
+.icons__box h6 {
+  font-size: 1.2rem;
 }
 
 .icons__box img {
@@ -555,7 +577,7 @@ footer .icons img {
 
 .icons__box p {
   font-size: 0.9rem;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 a:hover {
@@ -578,12 +600,15 @@ a:hover {
 }
 
 .process__content__text__process {
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .process__content__text__title {
-  font-weight: 700;
-  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 1.3rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.9rem;
 }
 
 .process__content__text__paragraph {
@@ -604,7 +629,8 @@ a:hover {
 }
 
 .process__content__text__icons__box p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 200;
 }
 
 .documentation {
@@ -614,16 +640,18 @@ a:hover {
 }
 
 .documentation__header {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .documentation__header p {
   font-weight: 500;
+  letter-spacing: 2px;
 }
 
 .documentation__header h3 {
   line-height: 1rem;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .documentation__content {
@@ -672,16 +700,18 @@ a:hover {
 }
 
 .road__header {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .road__header p {
   font-weight: 500;
+  letter-spacing: 2px;
 }
 
 .road__header h3 {
   line-height: 1rem;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .road__content {
@@ -866,10 +896,11 @@ a:hover {
 }
 
 .apps__content__text__title {
-  width: 60%;
+  width: 55%;
   font-size: 2rem;
   margin-bottom: 1rem;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .apps__content__text__paragraph {
@@ -878,6 +909,7 @@ a:hover {
 
 .apps__content__text__list {
   list-style: none;
+  padding: 0;
 }
 
 .apps__content__text__list__item {
@@ -889,7 +921,7 @@ a:hover {
 }
 
 .apps__content__text__buttons__icons img {
-  width: 2rem;
+  width: 1.7rem;
 }
 
 .apps__content__text__buttons a {
@@ -897,7 +929,7 @@ a:hover {
 }
 
 .apps__content__text__buttons img {
-  margin-right: 1rem;
+  margin-right: 0.7rem;
 }
 
 @media (max-width: 1200px) {
@@ -924,16 +956,18 @@ a:hover {
 }
 
 .leadership__header {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .leadership__header p {
   font-weight: 500;
+  letter-spacing: 2px;
 }
 
 .leadership__header h3 {
   line-height: 1rem;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 1200px) {
@@ -990,21 +1024,23 @@ a:hover {
 }
 
 .partners__header {
-  margin-bottom: 3.5rem;
+  margin-bottom: 4rem;
 }
 
 .partners__header p {
   font-weight: 500;
+  letter-spacing: 2px;
 }
 
 .partners__header h3 {
   line-height: 1rem;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .partners__icons img {
   margin-bottom: 1.5rem;
-  width: 11rem;
+  width: 15rem;
 }
 
 .faq {
@@ -1029,16 +1065,18 @@ a:hover {
 }
 
 .faq__content__text__header {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .faq__content__text__header p {
   font-weight: 500;
+  letter-spacing: 2px;
 }
 
 .faq__content__text__header h3 {
   line-height: 1rem;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .faq__content__text__nav {
@@ -1085,13 +1123,7 @@ a:hover {
 }
 
 .faq__content__img img {
-  width: 100%;
-}
-
-@media (max-width: 990px) {
-  .faq__content__img img {
-    width: 80%;
-  }
+  width: 80%;
 }
 
 .contact {
@@ -1101,16 +1133,18 @@ a:hover {
 }
 
 .contact__header {
-  margin-bottom: 3.5rem;
+  margin-bottom: 4rem;
 }
 
 .contact__header p {
   font-weight: 500;
+  letter-spacing: 2px;
 }
 
 .contact__header h3 {
   line-height: 1rem;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 1200px) {
@@ -1131,6 +1165,16 @@ a:hover {
   .contact__content__send {
     margin-top: 2rem;
   }
+}
+
+.contact__content__send__inputs__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__content__send__inputs__box input {
+  width: 50%;
 }
 
 .contact__content__send h4 {
@@ -1179,6 +1223,10 @@ a:hover {
   font-weight: 200;
 }
 
+button {
+  border: none;
+}
+
 .updated {
   background-color: #080c49;
   color: #fff;
@@ -1198,5 +1246,7 @@ a:hover {
 .updated button {
   border: 1px solid #fff;
   border-left: none;
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
 }
 /*# sourceMappingURL=style.css.map */
