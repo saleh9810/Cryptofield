@@ -7,7 +7,7 @@ import icon4 from "../assets/image/roadIcon4.png";
 
 const Road = () => {
   return (
-    <section className="road">
+    <section id="road" className="road">
       <header className="road__header text-center">
         <p>Road map</p>
         <h3>Our Road Map</h3>

@@ -8,7 +8,7 @@ const Ico = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <section className="ico">
+    <section id="ico" className="ico">
       <div
         data-aos="fade-up"
         className="container  ico__box d-flex align-items-center justify-content-center "

@@ -7,7 +7,7 @@ import listStyle from "../assets/image/circle.png";
 
 const Apps = () => {
   return (
-    <section className="apps">
+    <section id="apps" className="apps">
       <div className="container">
         <div className="apps__content d-flex">
           <div className="apps__content__text col-lg-5">

@@ -6,7 +6,7 @@ import global from "../assets/image/global.png";
 
 const ContactUs = () => {
   return (
-    <section className="contact">
+    <section id="contact" className="contact">
       <div className="container">
         <header className="contact__header text-center">
           <p>Contact Us</p>

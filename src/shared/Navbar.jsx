@@ -35,13 +35,30 @@ const GlobalNavbar = () => {
         </div>
         <div className="navbar-header__list">
           <ul className={isActive ? "d-none" : null}>
-            <li>What Is Ico</li>
-            <li>Token Sale</li>
-            <li>Road Map</li>
-            <li>Apps</li>
-            <li>Team</li>
-            <li>Faqs</li>
-            <li>Contact</li>
+            <li>
+              <a href="#ico"> What Is Ico </a>
+            </li>
+            <li>
+              {" "}
+              <a href="#token">Token Sale </a>
+            </li>
+            <li>
+              {" "}
+              <a href="#road">Road Map </a>
+            </li>
+            <li>
+              <a href="#apps"> Apps </a>
+            </li>
+            <li>
+              <a href="#team"> Team </a>
+            </li>
+            <li>
+              {" "}
+              <a href="#faq">Faqs </a>
+            </li>
+            <li>
+              <a href="#contact"> Contact </a>
+            </li>
           </ul>
         </div>
         <div className={`" ${isActive ? "d-none" : "navbar-header__buttons"}`}>

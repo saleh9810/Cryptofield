@@ -8,7 +8,7 @@ import tokenImg from "../assets/image/token-img.png";
 
 const Token = () => {
   return (
-    <section className="token">
+    <section id="token" className="token">
       <header className="token__header text-center">
         <p>Token</p>
         <h3>Token Sale</h3>

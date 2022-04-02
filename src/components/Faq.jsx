@@ -3,7 +3,7 @@ import faqImg from "../assets/image/faq.png";
 
 const Faq = () => {
   return (
-    <section className="faq">
+    <section id="faq" className="faq">
       <div className="container">
         <div className="faq__content d-flex">
           <div className="faq__content__text col-lg-5">

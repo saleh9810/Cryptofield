@@ -12,7 +12,7 @@ import linkedin from "../assets/image/linkedin.png";
 
 const Leadership = () => {
   return (
-    <section className="leadership">
+    <section id="team" className="leadership">
       <header className="leadership__header text-center">
         <p>Our Team</p>
         <h3>The Leadership Team</h3>
